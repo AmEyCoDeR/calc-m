@@ -1,0 +1,132 @@
+.shiny {
+    color: white;
+    border: none;
+    width: 22%;
+    height: 15vh;
+    background: #3984ff;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 22.5px;
+}
+
+.shiny:active {
+    color: #1e74ff;
+    border: none;
+    width: 22%;
+    height: 15vh;
+    background: rgba(128, 123, 123, 0.459);
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 22.5px;
+}
+
+.shinybr {
+    color: white;
+    border: none;
+    width: 22%;
+    height: 15vh;
+    background: rgb(202, 89, 227);
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 22.5px;
+}
+
+.shinybr:active {
+    color: rgb(202,89,227);
+    border: none;
+    width: 22%;
+    height: 15vh;
+    background: #6660d7;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 22.5px;
+}
+
+.shinycl {
+    color: white;
+    border: none;
+    width: 10vh;
+    height: 10vh;
+    background: #3984ff;
+    border-radius: 10vh;
+    font-weight: bold;
+    font-size: 22.5px;
+}
+
+.shinycl:active {
+    color: #1e74ff;
+    border: none;
+    width: 10vh;
+    height: 10vh;
+    background: rgba(128, 123, 123, 0.459);
+    border-radius: 10vh;
+    font-weight: bold;
+    font-size: 22.5px;
+}
+
+
+.shinylo {
+    color: white;
+    border: none;
+    width: 22%;
+    height: 15vh;
+    background: rgb(202, 89, 227);
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 22.5px;
+}
+
+.shinylo:active {
+    color: rgb(202, 89, 227);
+    border: none;
+    width: 22%;
+    height: 15vh;
+    background: #6660d7;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 22.5px;
+}
+
+.value {
+    background-color: #3984ff;
+    width: 80%;
+    height: 18vh;
+    color: white;
+    font-size: 45px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+
+.value:active {
+    background-color: rgba(128, 123, 123, 0.459);
+    width: 75%;
+    height: 18vh;
+    color: #3984ff;
+    font-size: 45px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+
+.shinyiet {
+    color: white;
+    border: none;
+    width: 22%;
+    height: 15vh;
+    background: rgb(20, 187, 112);
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 22.5px;
+}
+
+.shinyiet:active {
+    color: rgb(20, 187, 112);
+    border: none;
+    width: 22%;
+    height: 15vh;
+    background: #5f58a0;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 22.5px;
+}

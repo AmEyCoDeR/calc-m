@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aCalculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="aCalculator Logo.png">
+</head>
+
+<body>
+    <center>
+        <form class="calculator" name="calc" onsubmit="event.preventDefault();"></form>
+        <input type="text" class="value" name="txt" readonly="" id="valueoo">
+        <button class="shinycl" onclick="cleara()">C</button>
+        <br>
+        <br>
+        <button class="shiny" onclick="seven()">7</button>
+        <button class="shiny" onclick="eight()">8</button>
+        <button class="shiny" onclick="nine()">9</button>
+        <button class="shinylo" onclick="divide()">/</button>
+        <br>
+        <br>
+        <button class="shiny" onclick="four()">4</button>
+        <button class="shiny" onclick="five()">5</button>
+        <button class="shiny" onclick="six()">6</button>
+        <button class="shinylo" onclick="multiply()">*</button>
+        <br>
+        <br>
+        <button class="shiny" onclick="one()">1</button>
+        <button class="shiny" onclick="two()">2</button>
+        <button class="shiny" onclick="three()">3</button>
+        <button class="shinylo" onclick="substract()">-</button>
+        <br>
+        <br>
+        <button class="shiny" onclick="dot()">.</button>
+        <button class="shiny" onclick="zero()">0</button>
+        <button class="shinyiet" onclick="result()">=</button>
+        <button class="shinylo" onclick="add()">+</button>
+        <br>
+        <br>
+        <button class="shinybr" onclick="bracketleft()">(</button>
+        <button class="shinybr" onclick="bracketright()">)</button>
+    </center>
+
+</body>
+<script src="sketch.js"></script>
+
+</html>
